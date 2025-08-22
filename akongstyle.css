@@ -9,7 +9,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
     background-position: center;
     background-size: cover;
-    height: 109vh;
+    height: 109vh; 
     
 } 
 
@@ -66,3 +66,25 @@ ul li a{
 }
 
 
+ul li a:hover{
+    color: #ff7200;
+}
+
+
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid  #ff7200;
+    margin-top: 13px;
+    color: white;
+    border-right: none ;
+}
